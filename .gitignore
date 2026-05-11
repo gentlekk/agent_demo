@@ -1,6 +1,4 @@
 log/
 .idea
-utils/__pycache__
-rag/__pycache__
-model/__pycache__
-agent/__pycache__
+__pycache__/
+*.pyc
