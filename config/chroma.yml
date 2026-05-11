@@ -1,0 +1,9 @@
+collection_name: agent
+persist_directory: chroma_db
+k: 3    # 检索返回数目
+data_path: data   # 数据存放路径
+md5_hex_store: md5.txt    # 记录存放的md5值
+allow_knowledge_file_type: ["txt","pdf"]    # 允许类型
+chunk_size: 200       # 每个片段分片大小
+chunk_overlap: 20     # 两个段落间重复的字符数
+separators: ["\n\n","\n",".","!","?","。","！","？"," ",""]    # 分隔符 分段标志
